@@ -1,16 +1,28 @@
-# Linux Commands
+# Linux Basic Commands
+
+## Navigation
+
+| Command | Description |
+|---------|-------------|
+| `pwd` | Show the current working directory |
+| `ls` | List files and directories |
+| `ls -l` | Show detailed file information |
+| `ls -lh` | Show file sizes in human-readable format |
+| `cd` | Change the current directory |
+
+---
 
 ## File Management
 
 | Command | Description |
 |---------|-------------|
-| pwd | Show current directory |
-| ls | List files and directories |
-| cd | Change directory |
-| cp | Copy files |
-| mv | Move or rename files |
-| rm | Remove files |
-| mkdir | Create directory |
+| `mkdir` | Create a new directory |
+| `cp` | Copy files or directories |
+| `mv` | Move or rename files |
+| `rm` | Remove a file |
+| `rm -rf` | Remove a directory and its contents |
+| `cat` | Display the contents of a file |
+| `nano` | Open a file in the Nano text editor |
 
 ---
 
@@ -18,8 +30,8 @@
 
 | Command | Description |
 |---------|-------------|
-| chmod | Change file permissions |
-| chown | Change file owner |
+| `chmod` | Change file permissions |
+| `chown` | Change file owner |
 
 ---
 
@@ -27,14 +39,15 @@
 
 | Command | Description |
 |---------|-------------|
-| find | Search files |
-| grep | Search text |
+| `find` | Search for files and directories |
+| `grep` | Search for specific text inside files |
 
 ---
 
-## Editors
+## Information
 
 | Command | Description |
 |---------|-------------|
-| nano | Open text editor |
-| cat | Display file contents |
+| `echo` | Display text or output |
+| `uname -a` | Show complete system information |
+| `cat /etc/*release` | Display Linux distribution information |
