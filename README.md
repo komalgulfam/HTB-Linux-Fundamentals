@@ -1,7 +1,9 @@
 # HTB Linux Fundamentals
 
 ## About
-This repository documents my practical work, notes, and commands from the Hack The Box Academy Linux Fundamentals module.
+This repository contains my hands-on practice from the Hack The Box Academy Linux Fundamentals module.
+
+It includes practical lab work, Linux commands, security concepts, notes, and screenshots documenting my learning journey.
 
 ## Skills Learned
 - Linux File System
@@ -16,6 +18,8 @@ This repository documents my practical work, notes, and commands from the Hack T
 - lsof
 
 ## Commands Practiced
+
+### File Management
 - pwd
 - ls
 - cd
@@ -23,15 +27,26 @@ This repository documents my practical work, notes, and commands from the Hack T
 - mv
 - mkdir
 - rm
+
+### Permissions
 - chmod
 - chown
-- grep
-- find
-- nano
-- cat
-- iptables
-- journalctl
-- lsof
+- chgrp
 
+### System Monitoring
+- ps
+- top
+- systemctl
+- journalctl
+
+### Networking
+- ping
+- ip
+- ss
+- netstat
+
+### Security Tools
+- iptables
+- lsof
 ## Status
 ✅ Completed
